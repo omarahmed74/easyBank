@@ -1,0 +1,251 @@
+body {
+    overflow-x: hidden;
+}
+.bg {
+    background-color: white;
+}
+
+.btn1 {
+   background-color: hsl(150, 65%, 51%);
+   border-radius: 20px;
+   color: white;
+   margin-right: 100px;
+   padding: 8px 25px;
+}
+
+.btn1:hover {
+    background-color: #f8f9fa;
+    border: 1px solid hsl(150, 65%, 51%);
+    transition: all .5s ease-in-out;
+}
+
+.navbar-brand img {
+    margin-left: 100px;
+}
+
+.home {
+    background-image: url(../images/bg-intro-desktop.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+
+.home .aboutHeader {
+    padding: 150px 40px;
+}
+
+.home .aboutHeader h1 {
+    color: hsl(233, 26%, 24%);
+    font-weight: 700;
+}
+
+.home .aboutHeader p {
+    color:  hsl(233, 8%, 62%);
+}
+
+.bg-l {
+    background-color: #f5f4f4;
+}
+
+.whyUS {
+    padding: 40px 20px;
+}
+
+.whyUS h1 {
+    color: hsl(233, 26%, 24%);
+    font-weight: 700;
+}
+
+.whyUS p {
+    color: hsl(233, 8%, 62%);
+    padding: 10px;
+}
+
+.whyChosse {
+    padding-bottom: 25px;
+}
+
+.whyChosse .card {
+    background-color: whitesmoke;
+    border: 0px;
+}
+.whyChosse .card h5 {
+    color: hsl(233, 26%, 24%);
+}
+
+.whyChosse .card p {
+    color: hsl(233, 8%, 62%);
+}
+
+.whyChosse .card img {
+    padding: 10px;
+    width: 100px;
+}
+
+
+.Articles1 .card {
+    background-color: white;
+    border: 0px;
+    margin-bottom: 50px;
+}
+
+.Articles1 .card img {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.Articles1 .card h5 {
+    font-size: 15px;
+    color: hsl(233, 8%, 62%);
+}
+
+.Articles1 .card h3 {
+    font-size: 20px;
+    color: hsl(233, 26%, 24%);
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.Articles1 .card p {
+    font-size: 15px;
+}
+
+footer {
+    background-color: hsl(233, 26%, 24%);
+    color: white;
+    padding: 20px 0px;
+}
+
+footer .social-links i {
+    padding: 30px 10px;
+    color: white;
+    font-size: 20px;
+}
+
+footer .navBar a  {
+    color: white;
+}
+
+.Omar a {
+    color: hsl(150, 65%, 51%);
+    text-decoration: none;
+}
+
+.owl-carousel img {
+    width: 100px !important;
+    padding: 0;
+    margin: 0;
+}
+
+
+.about .navbar-nav {
+    font-size: 20px;
+    color: hsl(233, 26%, 24%);
+}
+
+.about .navbar-nav li i {
+   color: hsl(150, 65%, 51%);
+}
+
+.about .pag {
+    margin: 40px 0px;
+    font-size: 20px;
+    color: hsl(233, 26%, 24%);
+}
+
+.about .btn12 {
+    margin: 30px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: hsl(233, 8%, 62%);
+    transition: all 0.5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: hsl(150, 65%, 51%);
+}
+
+
+
+
+
+
+
+
+@media (max-width: 750px) {
+    .navbar-brand img {
+        margin-left: 0px;
+    }
+
+    .home{
+        background-image: url(../images/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 20%;
+        background-position: center center;
+    }
+    
+    .home .aboutHeader {
+        padding: 0px 0px;
+        text-align: center;
+    }
+    
+    .home .aboutHeader p {
+        padding: 10px 5px;
+    }
+
+    .home .aboutHeader .btn1 {
+         margin: 20px;
+    }
+    
+    .card {
+        text-align: center;
+    }
+
+    .card img {
+        margin: auto;
+    }
+
+    .whyUS h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .whyUS p {
+        font-size: 15px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .footer-button {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .about .navbar-nav {
+        font-size: 18px;
+        padding: 30px 0px;
+    }
+    
+    .about .navbar-nav li i {
+       color: hsl(150, 65%, 51%);
+    }
+    
+    .about .pag {
+        margin: 0;
+        font-size: 16px;
+    }
+    
+    .about .btn12 {
+        margin: 30px 0px;
+    }
+
+    .owl-carousel {
+        margin: 30px 0px;
+    }
+
+    
+}
